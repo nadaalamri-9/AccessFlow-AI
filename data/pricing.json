@@ -1,0 +1,11 @@
+{
+  "note": "Scenario assumptions, not provider invoices",
+  "commercial": {
+    "input_per_1k_halalas": 0.3,
+    "output_per_1k_halalas": 1.2
+  },
+  "open_weight": {
+    "input_per_1k_halalas": 0.08,
+    "output_per_1k_halalas": 0.25
+  }
+}

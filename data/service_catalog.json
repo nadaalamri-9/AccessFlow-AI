@@ -1,0 +1,62 @@
+{
+  "version": "2026.09.2",
+  "service_centre": "Enterprise Security Desk",
+  "systems": {
+    "github": {
+      "name": "GitHub Enterprise",
+      "standard_levels": [
+        "read",
+        "write"
+      ],
+      "privileged_levels": [
+        "admin"
+      ],
+      "policy_ar": "صلاحيتا القراءة والكتابة متاحتان عند وجود حاجة عمل. صلاحية Admin تتطلب مراجعة المدير والأمن.",
+      "policy_en": "Read and write are standard with a business need. Admin requires manager and Security review."
+    },
+    "jira": {
+      "name": "Jira",
+      "standard_levels": [
+        "read",
+        "write"
+      ],
+      "privileged_levels": [
+        "admin"
+      ],
+      "policy_ar": "صلاحيتا القراءة والكتابة مرتبطتان بحاجة الفريق. Admin محصورة بمسؤولي المنصة وتُصعّد.",
+      "policy_en": "Read and write are team-based. Admin is restricted to platform administrators and is escalated."
+    },
+    "slack": {
+      "name": "Slack",
+      "standard_levels": [
+        "member"
+      ],
+      "privileged_levels": [
+        "workspace_admin"
+      ],
+      "policy_ar": "عضوية member قياسية للموظفين حسب الحاجة. workspace_admin صلاحية مميزة وتُصعّد.",
+      "policy_en": "Member access is standard when needed. workspace_admin is privileged and is escalated."
+    },
+    "prod_db": {
+      "name": "Production Database",
+      "standard_levels": [],
+      "privileged_levels": [
+        "read",
+        "write",
+        "admin"
+      ],
+      "policy_ar": "كل وصول إلى قاعدة بيانات الإنتاج حساس ويُصعّد للأمن ومالك النظام.",
+      "policy_en": "All production-database access is sensitive and is escalated to Security and the system owner."
+    }
+  },
+  "facts": {
+    "ar": {
+      "review_time": "الطلبات القياسية تُراجع عادة خلال يومي عمل؛ الطلبات الحساسة تُصعّد للموافقة.",
+      "temporary": "يمكن طلب صلاحية مؤقتة بمدة محددة مع سبب عمل واضح."
+    },
+    "en": {
+      "review_time": "Standard requests are normally reviewed within two business days; sensitive requests are escalated.",
+      "temporary": "Temporary access can be requested for a defined duration with a clear business reason."
+    }
+  }
+}

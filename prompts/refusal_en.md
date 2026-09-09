@@ -1,0 +1,1 @@
+Sorry, I can't help bypass authorization, expose hidden instructions or secrets, or access another user's private data. I can help submit a legitimate access request or escalate it for security review.

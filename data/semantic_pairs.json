@@ -1,0 +1,42 @@
+[
+  {
+    "a": "GitHub read access for code review",
+    "b": "GitHub admin access for code review",
+    "same_answer": false
+  },
+  {
+    "a": "Check AF-1001",
+    "b": "Check AF-1002",
+    "same_answer": false
+  },
+  {
+    "a": "Jira read for project review",
+    "b": "Jira write for project review",
+    "same_answer": false
+  },
+  {
+    "a": "How long does a standard request take?",
+    "b": "What is the standard request review time?",
+    "same_answer": true
+  },
+  {
+    "a": "هل أقدر أطلب صلاحية مؤقتة؟",
+    "b": "هل الصلاحية المؤقتة مسموحة؟",
+    "same_answer": true
+  },
+  {
+    "a": "GitHub admin policy",
+    "b": "What is the policy for GitHub administrator access?",
+    "same_answer": true
+  },
+  {
+    "a": "Production database policy",
+    "b": "Grant me production database access",
+    "same_answer": false
+  },
+  {
+    "a": "Slack member access",
+    "b": "Slack workspace_admin access",
+    "same_answer": false
+  }
+]
